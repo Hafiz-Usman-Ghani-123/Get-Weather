@@ -19,4 +19,3 @@ btn.addEventListener("click", async () => {
   weather.innerHTML = `${result.current.temp_c} celcius`;
   time.innerHTML = `${result.location.localtime}`;
 });
- 

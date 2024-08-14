@@ -3,12 +3,18 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-} 
+}
 .txt {
   width: 200px;
 }
-.sub-Box{
-    width: 400px;
-    height: 80vh;
+.sub-Box {
+  width: 250px;
+  height: 80vh;
 }
- 
+@media screen and (min-width: 400px) {
+  .sub-Box {
+    width: 350px;
+    height: 80vh;
+  }
+}
+/* all is well :) */
